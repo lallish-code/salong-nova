@@ -437,7 +437,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Besök oss</p>
-                    <p className="text-foreground/70">Jaktplan 7, Barkaby station, 175 63 Järfälla</p>
+                    <p className="text-foreground/70">Barkarbyvägen 77A, 177 47 Järfälla</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -472,7 +472,7 @@ export default function Home() {
               style={{ border: 0 }}
               loading="lazy"
               allowFullScreen
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.8849999999998!2d17.9246!3d59.5078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7e5e5e5e5e5d%3A0x5e5e5e5e5e5e5e5e!2sJaktplan%207%2C%20Barkaby%20station%2C%20175%2063%20J%C3%A4rf%C3%A4lla!5e0!3m2!1ssv!2sse!4v1712079600"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.8849999999998!2d17.9246!3d59.5078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7e5e5e5e5e5d%3A0x5e5e5e5e5e5e5e5e!2sBarkarbyv%C3%A4gen%2077A%2C%20177%2047%20J%C3%A4rf%C3%A4lla!5e0!3m2!1ssv!2sse!4v1712079600"
             ></iframe>
           </div>
         </div>
