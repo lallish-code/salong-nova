@@ -59,14 +59,14 @@ export default function Home() {
       specialty: "Färgning & Styling",
       reviews: 500,
       rating: 5,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/hair-styling-hero-o5A2bYRhn5HiEFzyFRULTr.webp",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/professional-haircut-styling-Rwovqrix8SZNcEFFLy7bU8.webp",
     },
     {
       name: "Mackan",
       specialty: "Klippning & Styling",
       reviews: 232,
       rating: 5,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/hair-coloring-treatment-Kj9QDhDXeTn4srpiAXFEDB.webp",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/keratin-treatment-result-hUGtyUSCvNnxWnERGvhNjy.webp",
     },
   ];
 
@@ -74,22 +74,22 @@ export default function Home() {
     {
       title: "Elegant Blondering",
       category: "Färgning",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/hair-styling-hero-o5A2bYRhn5HiEFzyFRULTr.webp",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/blonde-highlights-before-after-Sn26YAmCm2EjAK3EFfakah.webp",
     },
     {
       title: "Klassisk Klippning",
       category: "Klippning",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/hair-coloring-treatment-Kj9QDhDXeTn4srpiAXFEDB.webp",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/professional-haircut-styling-Rwovqrix8SZNcEFFLy7bU8.webp",
     },
     {
       title: "Keratinbehandling",
       category: "Behandling",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/salon-interior-detail-Lo3t3987tesLSrfsvStUFE.webp",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/keratin-treatment-result-hUGtyUSCvNnxWnERGvhNjy.webp",
     },
     {
       title: "Bruduppsättning",
       category: "Styling",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/hero-salon-3N327QvWKTmvaDdnhebAeQ.webp",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/hair-salon-hero-new-6WfvGSajhSqbNbEBGYymm6.webp",
     },
   ];
 
