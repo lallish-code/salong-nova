@@ -1,8 +1,13 @@
+import { useAuth } from "@/_core/hooks/useAuth";
 import { Button } from "@/components/ui/button";
-import { Star, MapPin, Phone, Instagram, Clock, Sparkles, Scissors, Heart, ChevronRight, Award, Users, Zap } from "lucide-react";
+import { Star, MapPin, Phone, Clock, Sparkles, Scissors, Heart, ChevronRight, Award, Users, Zap } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export default function Home() {
+  // The userAuth hooks provides authentication state
+  // To implement login/logout functionality, simply call logout() or redirect to getLoginUrl()
+  let { user, loading, error, isAuthenticated, logout } = useAuth();
+
   const [activeTab, setActiveTab] = useState("all");
   const [scrollY, setScrollY] = useState(0);
 
@@ -59,14 +64,14 @@ export default function Home() {
       specialty: "Färgning & Styling",
       reviews: 500,
       rating: 5,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/professional-haircut-styling-Rwovqrix8SZNcEFFLy7bU8.webp",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/filiz-cutting-client-EetLJ7oSJjGqgy97H4M65C.webp",
     },
     {
       name: "Mackan",
       specialty: "Klippning & Styling",
       reviews: 232,
       rating: 5,
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/keratin-treatment-result-hUGtyUSCvNnxWnERGvhNjy.webp",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663503192590/4Tp7oachgSczukpetevpGb/mackan-cutting-client-2sGHMAemAJxKSXdoRuJNhJ.webp",
     },
   ];
 
@@ -437,20 +442,10 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Besök oss</p>
-                    <p className="text-foreground/70">Barkarbyvägen 77A, 177 47 Järfälla</p>
+                    <p className="text-foreground/70">Jaktplan 7 Barkaby station, 175 63 Järfälla</p>
                   </div>
                 </div>
-                <div className="flex gap-4">
-                  <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Instagram className="w-6 h-6 text-accent" />
-                  </div>
-                  <div>
-                    <p className="font-medium text-foreground">Följ oss</p>
-                    <a href="https://instagram.com/hairbym" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
-                      @hairbym
-                    </a>
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>
@@ -552,14 +547,7 @@ export default function Home() {
               </p>
               <p className="body-sm text-white/70">tvillingarna_c@hotmail.com</p>
             </div>
-            <div>
-              <h4 className="heading-lg mb-4">Följ oss</h4>
-              <div className="flex gap-4">
-                <a href="https://instagram.com/hairbym" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-accent transition">
-                  <Instagram className="w-5 h-5" />
-                </a>
-              </div>
-            </div>
+
           </div>
 
           <div className="border-t border-white/10 pt-8 text-center">
